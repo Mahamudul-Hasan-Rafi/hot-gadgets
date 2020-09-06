@@ -1,0 +1,125 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');*/
+
+
+.nav-body {
+    color: red !important;
+    font-size: medium;
+    font-weight: 500;
+}
+
+ul{
+    margin-left: auto;
+}
+
+li{
+    margin: 0 10px;
+}
+
+.row img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#carouselExampleIndicators li{
+    background-color: rgb(36, 19, 19);
+}
+
+.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: justify;  
+}
+
+.desc div{
+    padding: 0 70px 0 0;
+}
+
+
+a span{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.button{
+    margin-top: 40px;
+}
+
+
+.see-all{
+    margin-left: auto;
+    width: 90px;
+    text-align: end;
+    font-size: 19px;
+}
+
+.see-all a{
+    text-decoration: none;
+    color: rgb(243, 154, 36);
+}
+
+.see-all a:hover{
+    text-decoration: none;
+    color: rgb(241, 143, 14);
+    font-size: 20px;
+}
+
+.items{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.card{
+    padding: 50px 30px;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.card-body p{
+    text-align: justify;
+}
+
+.card a:hover{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.category{
+    margin-top: 200px;
+}
+
+.categories{
+    margin-top: 60px;
+}
+
+.underline{
+    width: 100px;
+    height: 8px;
+    margin: auto;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgb(218, 218, 62), orange);
+}
+
+.bag, .perfume-shoe{
+    width: 80%;
+}
+
+.bag, .perfume, .shoe{
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 5px;
+    padding: 35px 50px;
+}
+
+.order img{
+    width: 100%;
+}
+
+.catg{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shoe{
+    margin-top: 40px;
+}
